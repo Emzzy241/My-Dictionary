@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.dinoImg {
+    margin-left: 90px;
+}
+
+#dinoForm {
+    margin-top: 20px;
+}
+
+#dinoForm button {
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(94, 221, 189) 0%, rgb(4, 80, 180) 51%, rgb(0, 45, 104) 100%);
+    color: #fff;
+    background-size: 200% auto;
+}
+
+#dinoForm button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 8px 10px 12px;
+    background-position: right center;
+}
+
+#dinoForm input{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#dinoForm label{
+    font-size: 20px;
+}
+
+/* hiding the result div with CSS until the form is submitted */
+
+.result{
+    display: none;
+}
