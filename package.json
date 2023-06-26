@@ -10,7 +10,9 @@
     "build": "webpack --mode development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Mojiboye Emmanuel Oluwole(Emzzy241)",
